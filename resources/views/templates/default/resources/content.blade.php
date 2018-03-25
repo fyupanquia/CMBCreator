@@ -1,10 +1,3 @@
-@extends('templates.default.init')
-
-@section('d-libraries')
-    @parent
-    <script src="{{ asset('js/dashboard/index.js') }}"></script>
-@endsection
-
 @section('content')
     <section class="content">
         <div class="container-fluid">
