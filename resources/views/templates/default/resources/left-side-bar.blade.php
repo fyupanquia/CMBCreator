@@ -148,7 +148,7 @@
                                 <a href="/ui/preloaders">Preloaders</a>
                             </li>
                             <li>
-                                <a href="/ui/progressbars">Progress Bars</a>
+                                <a href="/ui/progressbar">Progress Bars</a>
                             </li>
                             <li>
                                 <a href="/ui/range-sliders">Range Sliders</a>

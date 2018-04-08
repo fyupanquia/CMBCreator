@@ -122,6 +122,46 @@ Route::prefix('ui')->group(function () {
     Route::get('modals', function () {
         return view('dashboard/ui/modals');
     });
+
+    Route::get('notifications', function () {
+        return view('dashboard/ui/notifications');
+    });
+
+    Route::get('pagination', function () {
+        return view('dashboard/ui/pagination');
+    });
+
+    Route::get('preloaders', function () {
+        return view('dashboard/ui/preloaders');
+    });
+
+    Route::get('progressbar', function () {
+        return view('dashboard/ui/progressbar');
+    });
+
+    Route::get('range-sliders', function () {
+        return view('dashboard/ui/range-sliders');
+    });
+
+    Route::get('sortable-nestable', function () {
+        return view('dashboard/ui/sortable-nestable');
+    });
+
+    Route::get('tabs', function () {
+        return view('dashboard/ui/tabs');
+    });
+
+    Route::get('thumbnails', function () {
+        return view('dashboard/ui/thumbnails');
+    });
+
+    Route::get('tooltips-popovers', function () {
+        return view('dashboard/ui/tooltips-popovers');
+    });
+
+    Route::get('waves', function () {
+        return view('dashboard/ui/waves');
+    });
 });
 
 

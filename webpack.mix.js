@@ -20,6 +20,12 @@ mix.styles([
 			'resources/assets/plugins/animate-css/animate.css',
 			'resources/assets/plugins/sweetalert/sweetalert.css',
 			'resources/assets/plugins/morrisjs/morris.css',
+
+			'resources/assets/plugins/ion-rangeslider/css/ion.rangeSlider.css',
+			'resources/assets/plugins/ion-rangeslider/css/ion.rangeSlider.skinFlat.css',
+
+			'resources/assets/plugins/nestable/jquery-nestable.css',
+
 			'resources/assets/css/style.css',
 			], 'public/css/dashboard/welcome.css')
 	.scripts([
@@ -33,6 +39,10 @@ mix.styles([
 			'resources/assets/plugins/waitme/waitMe.js',
 			'resources/assets/plugins/bootstrap-notify/bootstrap-notify.js',
 			'resources/assets/plugins/sweetalert/sweetalert.min.js',
+
+			'resources/assets/plugins/ion-rangeslider/js/ion.rangeSlider.js',
+			
+			'resources/assets/plugins/nestable/jquery.nestable.js',
 				
 			'resources/assets/plugins/jquery-countto/jquery.countTo.js',	
 			'resources/assets/plugins/raphael/raphael.min.js',	
